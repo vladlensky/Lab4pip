@@ -8,11 +8,10 @@ import java.util.concurrent.TimeUnit;
 @StatefulTimeout(value = 20, unit = TimeUnit.SECONDS)
 public class MainBean {
     //private BDManager;
+    private boolean isAuthorized = false;
     public void addPoint(Point point) {
 
     }
-
-    private boolean isAuthorized = false;
     @Remove
     public void checkout() {
         isAuthorized = false;

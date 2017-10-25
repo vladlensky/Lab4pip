@@ -21,7 +21,6 @@
         $('#resultTable').innerHTML = data;
     });
 </script>
-        <form action="">
             <canvas width='830' height="620" id='example' v-on:click="drawDot" class="rightpic"></canvas>
             <table class = "form" id="check">
                 <tr>
@@ -44,7 +43,6 @@
                     </td>
                 </tr>
             </table>
-        </form>
         <table style='border-radius: 5px;' border="2" bordercolor="yellow" id="resultTable">
             <tr><td>X</td> <td>Y</td> <td> R </td> <td>Result</td></tr>
         </table>
@@ -137,7 +135,6 @@
                     var table = document.getElementById('resultTable');
                     if(table.rows.length-1)
                         this.drawDotOnLoad(table.rows[table.rows.length-1].firstChild.innerHTML,table.rows[table.rows.length-1].firstChild.nextSibling.innerHTML,table.rows[table.rows.length-1].lastChild.innerHTML);
-                    this.
                 },
                 methods: {
                 draw : function() {

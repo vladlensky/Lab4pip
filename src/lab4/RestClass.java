@@ -10,7 +10,7 @@ import javax.ws.rs.core.Response;
 
 @Path("/main")
 public class RestClass {
-    //@EJB MainBean mainBean;
+    @EJB MainBean mainBean;
     @POST
     public Response login(){
         try {
