@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="jersey-client (2)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/jersey-client.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/jersey-common.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/jersey-container-servlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/jersey-container-servlet-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/jersey-hk2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/jersey-media-jaxb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/jersey-media-json-binding.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/jersey-media-sse.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/jersey-server.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
